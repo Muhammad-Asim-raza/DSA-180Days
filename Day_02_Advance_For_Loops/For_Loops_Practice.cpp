@@ -48,5 +48,5 @@ int main(){
             int cube=i*i*i;
             sum=sum+cube;
         }
-        cout<<"Sum of Cube of first "<<value<<" Numbers is: "<<sum<<endl<<endl;
+        cout<<"Sum of Cube of first "<<value<<" Numbers is: "<<sum<<endl<<endl<<endl;
 }
