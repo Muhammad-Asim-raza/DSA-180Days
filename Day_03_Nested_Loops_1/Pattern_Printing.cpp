@@ -46,13 +46,17 @@ int main()
     // 1 8 27 64 125 216
     // 1 8 27 64 125 216
     // 1 8 27 64 125 216
-    
-    int ro,co;
-    for(ro=1; ro<=5; ro++){
-        for(co=1; co<=6; co++){
-            cout<<co*co*co<<" ";
-        }cout<<endl;
-    }cout<<endl;
+
+    int ro, co;
+    for (ro = 1; ro <= 5; ro++)
+    {
+        for (co = 1; co <= 6; co++)
+        {
+            cout << co * co * co << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
 
     //  4.Fourth Pattern:
     //       F G H I J K
@@ -62,9 +66,14 @@ int main()
     //       F G H I J K
     int name;
     char column;
-    for(name=1; name<=5; name++){
-        for(column='A'; column<='K'; column++){
-            cout<<column<<" ";
-        }cout<<endl;
-    }cout<<endl;
+
+    for (name = 1; name <= 5; name++)
+    {
+        for (column = 'F'; column <= 'K'; column++)
+        {
+            cout << column << " ";
+        }
+        cout << endl;
+    }
+    cout << endl;
 }
