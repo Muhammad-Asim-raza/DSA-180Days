@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+             
+        //   3.Find the square root using binary search 
 int sqrtBinary(int n) {
     int start = 0, end = n;
     int ans = -1;

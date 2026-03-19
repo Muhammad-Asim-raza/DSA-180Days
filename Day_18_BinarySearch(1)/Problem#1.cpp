@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+//    Binary Search Problems
+    // 1.Find first and last position of same element in a sorted Array
 int first(int Arr[], int n, int key)
 {
     int start = 0;
@@ -50,8 +53,7 @@ int last(int Arr[], int n, int key)
 }
 int main()
 {
-    //    Binary Search Problems
-    // 1.Find first and last position of same element in a sorted Array
+    
     int Arr[1000] = {1, 3, 3, 3, 3, 3, 3, 3, 5, 6, 8, 8, 9};
     int n = 13;
     int key = 3;
