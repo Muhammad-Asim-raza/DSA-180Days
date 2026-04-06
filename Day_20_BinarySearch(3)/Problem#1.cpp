@@ -1,5 +1,8 @@
 #include <iostream>
 using namespace std;
+
+    //  1. Books Allocation Among students
+
 bool ispermutated(int Arr[], int size, int student, int maxvalue)
 {
     int count = 1;
