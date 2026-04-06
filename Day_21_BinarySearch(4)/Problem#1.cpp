@@ -45,6 +45,6 @@ int main()
     int size = 6;
     int cows = 3;
     int result = stallsAllocation(Stalls, size, cows);
-    cout << "The minium distance between the aggressive cows " << endl;
+    cout << "The maximum distance among the aggressive cows " << endl;
     cout << "should be: " << result;
 }
